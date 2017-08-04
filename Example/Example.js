@@ -75,6 +75,14 @@ const Example = () => {
                   tabs
                   tabBarStyle={styles.tabBarStyle}
                   activeBackgroundColor='#ddd'
+                  showIcon={true}
+                  tabBarPosition='bottom'
+                  swipeEnabled={false}
+                  activeTintColor='black'
+                  activeBackgroundColor='transparent'
+                  tabBarStyle={{backgroundColor:'white'}}
+                  pressColor="black"
+                  indicatorStyle={{backgroundColor:'white'}}
                 >
                   <Scene
                     key="tab1"
